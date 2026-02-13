@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="N1 JESS - Modern Digital Agency | We Build the Digital Future">
+    <title>N1 JESS | Digital Agency 2026</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-bolt"></i> N1 JESS
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-sun" id="theme-icon"></i>
+                </button>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Open Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle">Welcome to 2026</span>
+            <h1 class="hero-title">
+                We Architect the <span class="gradient-text">Digital Future</span>
+            </h1>
+            <p class="hero-desc">
+                Elevate your brand with cutting-edge web experiences, AI integrations, and immersive digital design.
+            </p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn btn-primary">Our Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Who We Are</h2>
+                <p class="section-subtitle">Innovators. Creators. Futurists.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass">
+                    <i class="fa-solid fa-rocket icon"></i>
+                    <h3>Visionary</h3>
+                    <p>Pushing boundaries with next-gen technologies and creative strategies.</p>
+                </div>
+                <div class="about-card glass">
+                    <i class="fa-solid fa-code icon"></i>
+                    <h3>Precision</h3>
+                    <p>Clean, scalable code built for performance and growth.</p>
+                </div>
+                <div class="about-card glass">
+                    <i class="fa-solid fa-users icon"></i>
+                    <h3>Collaborative</h3>
+                    <p>We transform bold ideas into powerful digital realities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive digital solutions for modern brands.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass">
+                    <div class="card-glow"></div>
+                    <i class="fa-solid fa-compass-drafting icon-lg"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Immersive interfaces that drive engagement and elevate user experience.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="card-glow"></div>
+                    <i class="fa-solid fa-laptop-code icon-lg"></i>
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive, high-performance web applications built for scale.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="card-glow"></div>
+                    <i class="fa-solid fa-wand-magic-sparkles icon-lg"></i>
+                    <h3>Digital Strategy</h3>
+                    <p>Data-driven strategies designed to maximize reach and ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Selected Works</h2>
+                <p class="section-subtitle">A glimpse into what we have built.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item glass">
+                    <div class="portfolio-img" style="background: url('images/project1.jpeg') center/cover no-repeat;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Neon Nexus</h3>
+                        <p>Fintech App Interface</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <div class="portfolio-img" style="background: url('images/project2.jpeg') center/cover no-repeat;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Cyber Estate</h3>
+                        <p>Real Estate Platform</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <div class="portfolio-img" style="background: url('images/project3.jpeg') center/cover no-repeat;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Orbit AI</h3>
+                        <p>AI Dashboard</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <div class="portfolio-img" style="background: url('images/project4.jpeg') center/cover no-repeat;">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Solaris</h3>
+                        <p>Energy Management System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact reveal">
+        <div class="container">
+            <div class="contact-wrapper glass">
+                <div class="contact-info">
+                    <h2>Let's Build Something Powerful</h2>
+                    <p>Ready to start your next project? Reach out and let’s create something exceptional together.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>jaskaransingh11774@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 ************</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-bolt"></i> N1 JESS
+                </div>
+                <p class="copyright">
+                    &copy; 2025 N1 JESS Digital Agency. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
